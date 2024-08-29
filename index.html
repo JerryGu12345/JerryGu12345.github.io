@@ -1,6 +1,108 @@
 <!DOCTYPE html>
 <html>
-<body>
-<h1>Hello World</h1>
-</body>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Jerry Gu</title>
+    <link rel="stylesheet" href="style.css" />
+    <script rel="text/javascript" src="script.js"></script>
+    </head>
+
+    <body>
+        <div class="block header">
+            <h1>Jia Yi (Jerry) Gu</h1>
+        </div>
+        <div class="block pfp">
+            <img src="./images/linkedin_pfp_cropped.jpg" id="img01"/>
+        </div>
+        <div class="block aboutme">
+            <h2>
+                About me
+            </h2>
+            A recent graduate who is looking for entry level jobs in the field of data science. 
+            With a passion for using my knowledge in data and algorithms to solve complex real-world 
+            problems, I am eager to make meaningful contributions while gaining professional experience
+            and growing my career in data science.
+
+            Also, I recently achieved Guardian Level in 
+            <a href="https://leetcode.com/u/JerryGu1/" target="_blank">LeetCode</a>, 
+            with a current contest rating of 2172, placing me in the top 1.2% of users.
+        </div>
+        <div class="block background">
+            <h2>Background</h2>
+
+            <h3>Early life</h3>
+            I had a passion for mathematics ever since my early school years, as I studied
+            contest-level math a few grades ahead. I skipped grade 9 and 10 math in high school
+            and was on the student honour roll (group III) for the 2017 Cayley Contest.
+            
+            I also discovered an interest in competitive programming during high school, 
+            as I engaged in competitive programming platforms such as 
+            <a href="https://dmoj.ca/user/Jerry_Gu" target="_blank">DMOJ</a> and participated in computing contests.
+
+            <h3>Undergraduate studies</h3>
+            I began my undergraduate studies in Fall 2019 with an Honours Mathematics plan at the 
+            University of Waterloo. During my 1st year, I opted for the advanced stream of most math courses, which involved 
+            diving deep into theoretical concepts through rigorous proofs. As my experiences with math contests 
+            honed my creative problem-solving skills, I was well prepared to take on this challenge. I declared 
+            Statistics as my major in my 2nd year, as it was the field of mathematics that sparked my interest the 
+            most. As I delved deeper into the subject, I became fascinated by the potential of data-driven insights 
+            through statistical methodologies and computer science to revolutionize diverse fields. This fascination 
+            led me to the decision to choose a career in data science. During my 3rd year, I focused on statistical 
+            learning courses, immersing myself in the realm of data science and laying the foundation for my future 
+            studies. 
+            In Fall 2022, I completed my Bachelor of Mathematics degree with a major in Statistics and minor in physics
+            (with honour roll, as I maintained an average grade of 88). 
+            
+            
+            <h3>Graduate studies</h3>
+            Subsequently in Fall 2022, I commenced my graduate studies at the University of Waterloo, pursuing 
+            a master's degree in data science and AI.
+            During the initial two terms of my master's program, I learned various data science topics, 
+            including data analysis, distributed computing, and intro to ML/AI. I then undertook an eight-month 
+            co-op at Roche as a data science intern, where I developed a dashboard with RShiny and worked 
+            on research projects on AI models. In my final term, I studied AI topics 
+            such as graph neural networks, foundation models, and computer vision. In spring 2024, I 
+            graduated with an average grade of 89.
+
+        </div>
+        <div class="block projects">
+            <h2>Projects</h2>
+            Check out some of the projects I worked on. The full list of projects can be found at 
+            <a href="https://github.com/JerryGu12345" target="_blank">my GitHub page</a>.
+            <div class="tab">
+                <button class="tablinks" onclick="getProject(event, 'a')">Transformer</button>
+                <button class="tablinks" onclick="getProject(event, 'b')">DCGAN</button>
+              </div>
+              
+              <div id="a" class="tabcontent">
+                <embed
+                    src="transformer.pdf"
+                    type="application/pdf"
+                    frameBorder="0"
+                    scrolling="auto"
+                    height="400px"
+                    width="800px"
+                ></embed>
+              </div>
+              
+              <div id="b" class="tabcontent">
+                <embed
+                    src="dcgan.pdf"
+                    type="application/pdf"
+                    frameBorder="0"
+                    scrolling="auto"
+                    height="400px"
+                    width="800px"
+                ></embed>
+              </div>
+        </div>
+
+        <div class="block contact">
+            <h2>Contact</h2>
+            Email (preferred): jerrygu@live.com
+            <br>
+            Phone: 437-345-8679
+        </div>
+    </body>
 </html>
